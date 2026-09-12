@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.5.0] - 2026-09-12
+
+### Fixed
+- Dropdowns in Settings: Obsidian's chevron was landing on top of the text.
+
+### Changed
+- Angled tabs, tags and property pills are drawn with gradients instead of `clip-path`, so they render on every Obsidian version.
+- Dropped the Rajdhani 500 weight to trim the embedded fonts.
+
+## [1.1.1] - 2026-09-12
+
+### Changed
+- Removed the last `!important` rules (settings navigation) in favour of selector specificity.
+
 ## [1.1.0] - 2026-09-11
 
 ### Added
@@ -45,6 +59,8 @@
 ### Added
 - First release: deep-purple night with pink and cyan neon, striped sun and horizon grid behind notes, glowing Audiowide headings, clip-path tabs and tags, diamond checkboxes, neon callouts with corner name-tags, CRT-black code blocks, animated equaliser in the file explorer, styled settings, modals, menus, command palette, properties, graph and mobile bars. Fonts embedded (Audiowide, Rajdhani, Share Tech Mono).
 
+[1.5.0]: https://github.com/Real-Fruit-Snacks/obsidian-outrun/releases/tag/1.5.0
+[1.1.1]: https://github.com/Real-Fruit-Snacks/obsidian-outrun/releases/tag/1.1.1
 [1.1.0]: https://github.com/Real-Fruit-Snacks/obsidian-outrun/releases/tag/1.1.0
 [1.0.6]: https://github.com/Real-Fruit-Snacks/obsidian-outrun/releases/tag/1.0.6
 [1.0.5]: https://github.com/Real-Fruit-Snacks/obsidian-outrun/releases/tag/1.0.5
