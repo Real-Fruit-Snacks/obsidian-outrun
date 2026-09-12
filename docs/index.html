@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outrun — a synthwave theme for Obsidian</title>
+<meta name="description" content="Outrun is a synthwave Obsidian theme with night and day modes: neon pink and cyan, a striped sun and a grid that runs to the horizon.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Outrun for Obsidian">
+<meta property="og:description" content="1986. Deep-purple night, hot-pink and cyan neon, a striped sun, a grid to the horizon.">
+<meta property="og:image" content="https://real-fruit-snacks.github.io/obsidian-outrun/assets/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rfs.css">
+<style>:root{ --accent:#FF3FA4; --accent-2:#2CF2FF; }</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header">
+    <a class="owner" href="https://github.com/Real-Fruit-Snacks"><i></i>Real-Fruit-Snacks</a>
+    <span class="crumb">/</span><span class="proj">Outrun</span>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="#palette">Palette</a>
+      <a class="gh" href="https://github.com/Real-Fruit-Snacks/obsidian-outrun">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="pill"><b>Theme</b> night and day modes · fonts included</div>
+    <h1>1986 never ended. It just got a day shift.</h1>
+    <p class="lede">Outrun gives Obsidian a deep-purple night, hot-pink and cyan neon, a striped sun in the corner and a grid that runs to the horizon. Loud on purpose.</p>
+    <div class="actions">
+      <a class="btn primary" href="#install">Install Outrun</a>
+      <a class="btn secondary" href="https://github.com/Real-Fruit-Snacks/obsidian-outrun">View source</a>
+    </div>
+    <div class="frame"><img src="assets/screenshot.png" alt="Outrun theme poster with a note in the theme"></div>
+  </div>
+
+  <section id="features">
+    <h2>What changes</h2>
+    <p class="sub">Everything, but it's all Obsidian's own variables and classes underneath, so plugins follow along.</p>
+    <div class="grid">
+      <div class="f"><div class="ic">Aa</div><h3>Neon type</h3><p>Audiowide headings with a real glow, Rajdhani body text, Share Tech Mono for code, tabs and labels. All three fonts are embedded.</p></div>
+      <div class="f"><div class="ic">◐</div><h3>Sun and horizon</h3><p>A striped sunset sits in the corner of every note and a pink-and-cyan grid fades in toward the bottom.</p></div>
+      <div class="f"><div class="ic">▣</div><h3>Callouts with name-tags</h3><p>Neon-edged boxes with a glowing mono title, in a colour per callout type.</p></div>
+      <div class="f"><div class="ic">◆</div><h3>Angled everything</h3><p>Clip-path tabs and tags, diamond checkboxes, pink diamond bullets.</p></div>
+      <div class="f"><div class="ic">{}</div><h3>CRT code</h3><p>Black code blocks with a cyan edge and a syntax palette tuned to the night.</p></div>
+      <div class="f"><div class="ic">▮</div><h3>The equaliser</h3><p>Ten neon bars bounce under the file explorer. Respects reduced-motion.</p></div>
+    </div>
+  </section>
+
+  <section id="screenshots">
+    <h2>In the wild</h2>
+    <p class="sub">Turn on Readable line length — the theme is built around a centred note with the sun and grid in the open space.</p>
+    <div class="frame" style="margin-top:0"><img src="assets/hero-note.png" alt="A full note in Outrun at night"></div>
+    <div class="frame" style="margin-top:24px"><img src="assets/hero-day.png" alt="The same note in Outrun's day mode"></div>
+  </section>
+
+  <section id="install">
+    <div class="two">
+      <div>
+        <h2>Install</h2>
+        <p class="sub">From the community list, or two files by hand.</p>
+        <ol class="steps">
+          <li><b>Community list</b> Settings → Appearance → Themes → Manage → search "Outrun".</li>
+          <li><b>Manual</b> Download <code>theme.css</code> and <code>manifest.json</code> from the latest release into <code>.obsidian/themes/Outrun/</code>, then pick it under Appearance.</li>
+        </ol>
+        <div class="callout"><b>No fonts to install.</b> Audiowide, Rajdhani and Share Tech Mono ship inside the theme.</div>
+      </div>
+<pre><code>.obsidian/
+  themes/
+    Outrun/
+      theme.css
+      manifest.json</code></pre>
+    </div>
+  </section>
+
+  <section id="palette">
+    <h2>Palette</h2>
+    <p class="sub">Two modes, one world. Switch with Obsidian's base colour scheme.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Role</th><th>Night</th><th>Day</th></tr>
+        <tr><td>Background</td><td><code>#120B2A</code> · <code>#1A1040</code></td><td><code>#F7F2FC</code> · <code>#EFE7F8</code></td></tr>
+        <tr><td>Pink</td><td><code>#FF3FA4</code></td><td><code>#D61A7C</code></td></tr>
+        <tr><td>Cyan</td><td><code>#2CF2FF</code></td><td><code>#0A8FA6</code></td></tr>
+        <tr><td>Purple</td><td><code>#9D5CFF</code></td><td><code>#6E3AD6</code></td></tr>
+        <tr><td>Sun</td><td><code>#FFB347</code></td><td><code>#EF6F3A</code></td></tr>
+        <tr><td>Text</td><td><code>#F3EAFF</code> · <code>#A99BD1</code></td><td><code>#23133F</code> · <code>#6B5B90</code></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>More from Real-Fruit-Snacks</h2>
+    <p class="sub">Same site, a different glow per project.</p>
+    <div class="proj">
+      <a href="https://real-fruit-snacks.github.io/obsidian-Thoughtbin/"><i style="background:#7C9CFF"></i><b>Thoughtbin</b><span>Obsidian plugin — a private timeline for quick thoughts</span></a>
+      <a href="https://real-fruit-snacks.github.io/obsidian-glow/"><i style="background:#B48CFF"></i><b>Glow</b><span>Obsidian theme — calm dark with a little light</span></a>
+      <a href="#" aria-current="page"><i style="background:#FF3FA4"></i><b>Outrun</b><span>Obsidian theme — 1986 never ended</span></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>Outrun by <a href="https://github.com/Real-Fruit-Snacks">Real-Fruit-Snacks</a> · MIT</span>
+    <span>Fonts under the SIL Open Font License</span>
+  </footer>
+</div>
+</body>
+</html>
